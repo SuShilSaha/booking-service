@@ -1,0 +1,27 @@
+{
+  "title": "Response resource",
+  "description": "Response resource object",
+  "type": "object",
+  "properties": {
+    "pageSize": {
+      "description": "Page size",
+      "type": "integer"
+    },
+    "page": {
+      "description": "Page",
+      "type": "integer"
+    },
+    "results": {
+      "booking": {
+        "type": "object"
+      },
+      "minItems": 0,
+      "type": "array"
+    }
+  },
+  "required": [
+    "pageSize",
+    "page",
+    "results"
+  ]
+}
